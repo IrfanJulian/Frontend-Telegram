@@ -46,7 +46,7 @@ const ChatLayout = () => {
                 <img src={iconUser} alt="user" className='w-[3.5rem] h-[3.5rem] rounded-xl mr-5 mt-auto' />
                 <div className="wrapperChat border p-1 rounded-tl-[30px] rounded-r-[30px] w-[30rem] bg-[#7E98DF]">
                     <Link to={'////res.cloudinary.com/ddpo9zxts/image/upload/v1671039652/slipknot3018_v35wpo.png'}>
-                        <img src={imagesent} alt="img" className='w-[30rem] h-[18rem] rounded-[30px]' />
+                        <img src={imagesent} alt="img" className='w-[30rem] h-[18rem] rounded-tl-[30px] rounded-r-[30px]' />
                     </Link>
                 </div>
             </div>
